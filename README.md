@@ -7,7 +7,7 @@ https://github.com/necolas/normalize.css
 
 ```````````````````js
 import jss from 'jss'
-import jssNormalize from 'jss-normalize'
+import normalize from 'jss-normalize'
 
 jss.createStyleSheet(normalize).attach()
 ```````````````````
