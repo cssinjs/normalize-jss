@@ -10,7 +10,7 @@
  * Anyway, you can use a preset (https://github.com/cssinjs/jss-preset-default) for a quick setup with default plugins.
  */
 
-export default {
+module.exports = {
 
   /**
    * 1. Change the default font family in all browsers (opinionated).
