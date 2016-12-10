@@ -1,6 +1,6 @@
 {
   "name": "jss-normalize",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "jss-normalize",
   "author": "Pavel Davydov",
   "license": "MIT",
@@ -15,5 +15,8 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.8.0"
+  },
+  "peerDependencies": {
+    "jss": "^6.0.1"
   }
 }

@@ -1,3 +1,7 @@
+## 2.0.0 / 2016-12-10
+
+- Update to jss 6.0.1
+
 ## 1.0.1 / 2016-12-07
 
 - Exporting issues fixes
