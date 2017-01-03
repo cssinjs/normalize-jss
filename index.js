@@ -33,6 +33,13 @@ module.exports = {
     },
 
     /**
+     * Add the correct display in IE9
+     */
+    'article, aside, footer, header, nav, section, figcaption, figure, main': {
+      display: 'block',
+    },
+
+    /**
      * Correct the font size and margin on `h1` elements within `section` and
      * `article` contexts in Chrome, Firefox, and Safari.
      */
@@ -71,7 +78,7 @@ module.exports = {
       textDecorationSkip: 'objects', /* 2 */
     },
     'a:active, a:hover': {
-      outline: 0, /* 3 */
+      outlineWidth: 0, /* 3 */
     },
 
     /**
@@ -107,6 +114,14 @@ module.exports = {
     },
 
     /**
+     * Add the correct background and color in IE 9-.
+     */
+    mark: {
+      backgroundColor: '#ff0',
+      color: '#000',
+    },
+
+    /**
      * Add the correct font size in all browsers.
      */
     small: {
@@ -128,6 +143,13 @@ module.exports = {
     },
     sub: {
       bottom: '-0.25em'
+    },
+
+    /**
+     * Add the correct display in IE 9-.
+     */
+    'audio, video': {
+      display: 'inline-block',
     },
 
     /**
@@ -155,9 +177,13 @@ module.exports = {
     },
 
     /**
-     * Remove the margin in Firefox and Safari.
+     * 1. Change the font styles in all browsers (opinionated).
+     * 2. Remove the margin in Firefox and Safari.
      */
     'button, input, optgroup, select, textarea': {
+      fontFamily: 'sans-serif', /* 1 */
+      fontSize: '100%', /* 1 */
+      lineHeight: '1.15', /* 1 */
       margin: 0, /* 2 */
     },
 
@@ -222,10 +248,12 @@ module.exports = {
     },
 
     /**
-     * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+     * 1. Add the correct display in IE 9-.
+     * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
      */
     progress: {
-      verticalAlign: 'baseline',
+      display: 'inline-block', /* 1 */
+      verticalAlign: 'baseline', /* 2 */
     },
 
     /**
@@ -288,6 +316,13 @@ module.exports = {
      */
     summary: {
       display: 'list-item',
+    },
+
+    /**
+     * Add the correct display in IE 9-.
+     */
+    canvas: {
+      display: 'inline-block',
     },
 
     /**

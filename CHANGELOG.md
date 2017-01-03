@@ -1,3 +1,8 @@
+## 3.0.0 / 2017-03-01
+
+- Support IE9
+- Update dependencies
+
 ## 2.0.0 / 2016-12-10
 
 - Update to jss 6.0.1
