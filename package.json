@@ -2,8 +2,15 @@
   "name": "normalize-jss",
   "version": "2.0.0",
   "description": "normalize-jss",
-  "author": "Pavel Davydov",
+  "author": {
+    "name": "Pavel Davydov",
+    "email": "typical000@gmail.com"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:typical000/normalize-jss.git"
+  },
   "scripts": {
     "lint": "eslint ./index.js"
   },
@@ -17,6 +24,9 @@
     "eslint-plugin-react": "^6.8.0"
   },
   "peerDependencies": {
-    "jss": "^6.0.1"
+    "jss": "^6.1.0",
+    "jss-camel-case": "^3.0.0",
+    "jss-global": "^0.4.0",
+    "jss-vendor-prefixer": "^4.0.0"
   }
 }

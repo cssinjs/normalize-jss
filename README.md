@@ -18,6 +18,7 @@ jss.createStyleSheet(normalize).attach()
 2. Required jss plugins for correct working:
    1. **jss-vendor-preifxer**
    2. **jss-camelcase**
+   3. **jss-global**
 
 Anyway, you can use a [preset](https://github.com/cssinjs/jss-preset-default) for a quick setup with default plugins.
 
