@@ -1,7 +1,7 @@
 {
-  "name": "jss-normalize",
+  "name": "normalize-jss",
   "version": "2.0.0",
-  "description": "jss-normalize",
+  "description": "normalize-jss",
   "author": "Pavel Davydov",
   "license": "MIT",
   "scripts": {
