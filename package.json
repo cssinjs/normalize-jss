@@ -1,7 +1,7 @@
 {
   "name": "normalize-jss",
   "version": "3.0.0",
-  "description": "normalize-jss",
+  "description": "JSS port of normalize.css",
   "author": {
     "name": "Pavel Davydov",
     "email": "typical000@gmail.com"
@@ -9,8 +9,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:typical000/normalize-jss.git"
+    "url": "git@github.com:cssinjs/normalize-jss.git"
   },
+  "keywords": [
+    "normalize",
+    "jss",
+    "jsstyles",
+    "cssinjs"
+  ],
   "scripts": {
     "lint": "eslint ./index.js"
   },
