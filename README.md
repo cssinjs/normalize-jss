@@ -6,7 +6,7 @@
 
 ```````````````````js
 import jss from 'jss'
-import normalize from 'jss-normalize'
+import normalize from 'normalize-jss'
 
 jss.createStyleSheet(normalize).attach()
 ```````````````````
