@@ -21,18 +21,18 @@
     "lint": "eslint ./index.js"
   },
   "devDependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint": "^3.11.1",
-    "eslint-config-airbnb": "^13.0.0",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
     "eslint-config-jss": "^3.0.0",
     "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.8.0"
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3"
   },
   "peerDependencies": {
-    "jss": "^6.1.0",
-    "jss-camel-case": "^3.0.0",
-    "jss-global": "^0.4.0",
-    "jss-vendor-prefixer": "^4.0.0"
+    "jss": ">= 6.x <= 7.x",
+    "jss-camel-case": ">= 3.x <= 4.x",
+    "jss-global": ">= 0.x <= 1.x",
+    "jss-vendor-prefixer": ">= 4.x <= 5.x"
   }
 }
