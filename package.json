@@ -18,7 +18,8 @@
     "cssinjs"
   ],
   "scripts": {
-    "lint": "eslint ./index.js"
+    "lint": "eslint ./index.js",
+    "prepublishOnly": "npm run lint"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
@@ -27,12 +28,13 @@
     "eslint-config-jss": "^3.0.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.8.0"
+    "eslint-plugin-react": "^6.8.0",    
+    "eslint-plugin-import": "^2.2.0"
   },
   "peerDependencies": {
-    "jss": "^6.1.0",
-    "jss-camel-case": "^3.0.0",
-    "jss-global": "^0.4.0",
-    "jss-vendor-prefixer": "^4.0.0"
+    "jss": "^8.1.0",
+    "jss-camel-case": "^5.0.0",
+    "jss-global": "^2.0.0",
+    "jss-vendor-prefixer": "^6.0.0"
   }
 }

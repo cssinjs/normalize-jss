@@ -1,3 +1,8 @@
+## 4.0.0 / 2017-08-07
+
+- Update deps to JSS 8 and co.
+- Add package-lock.json
+
 ## 3.0.0 / 2017-03-01
 
 - Support IE9

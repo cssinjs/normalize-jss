@@ -338,6 +338,5 @@ module.exports = {
     '[hidden]': {
       display: 'none',
     }
-
   }
 }
