@@ -14,7 +14,7 @@ jss.createStyleSheet(normalize).attach()
 #### You must know
 
 Required jss plugins for correct working:
-  1. [jss-vendor-preifxer](https://github.com/cssinjs/jss-vendor-prefixer)
+  1. [jss-vendor-prefixer](https://github.com/cssinjs/jss-vendor-prefixer)
   2. [jss-camel-case](https://github.com/cssinjs/jss-camel-case)
   3. [jss-global](https://github.com/cssinjs/jss-global)
 
